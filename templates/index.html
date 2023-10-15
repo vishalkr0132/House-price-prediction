@@ -1,0 +1,980 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>House</title>
+    <!--meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Roof Houses Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web Template, 
+         Smartphone Compatible web Template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script>
+        addEventListener("load", function() {
+                setTimeout(hideURLbar, 0);
+            },
+            false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- bootstrap style sheet -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" />
+    <!-- fontawesome -->
+    <link href="{% static 'css/fontawesome-all.min.css' %}" rel="stylesheet" type="text/css" media="all">
+    <!-- gallery css -->
+    <link href="{% static 'css/prettyPhoto.css' %}" rel="stylesheet" type="text/css" />
+    <!-- stylesheets-->
+    <link href="{% static 'css/style.css' %}" rel='stylesheet' type='text/css' media="all">
+
+
+
+    <link href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- nav -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <h1><a class="navbar-brand" href="index">Houses</a></h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link scroll" href="/">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#services">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#team">TEAM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#gallery">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#stats">STATS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#news">NEWS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact">CONTACT</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- //nav -->
+    <!-- banner -->
+    <div class="banner">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block" src="{% static 'images/b1.jpg' %}" alt="First slide">
+                    <div class="carousel-caption ">
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block" src="{% static 'images/b2.jpg' %}" alt="Second slide">
+                    <div class="carousel-caption ">
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block" src="{% static 'images/b3.jpg' %}" alt="Third slide">
+                    <div class="carousel-caption">
+
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- //banner -->
+    <!-- about -->
+    <div class="about py-lg-5 py-md-4 py-3" id="about">
+        <div class="container py-sm-5 py-4">
+
+            <div class="row">
+                <div class="col-md-6 col-sm about-left">
+                    <img src="{% static 'images/ab.jpg' %}" alt="image" />
+                </div>
+                <div class="col-md-6 col-sm about-right">
+                    <div class="title-heading-about">
+                        <h3>ABOUT US</h3>
+                        <h4>ABOUT</h4>
+                    </div>
+                    <p>House price prediction can help the developer determine the selling price of a house and can help the Customers to arrange the right time to purchase a house</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary more-button" data-toggle="modal" data-target="#exampleModal33">
+							  MORE INFO
+							</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal33" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+									</button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="{% static 'images/ab.jpg' %}" alt="image" />
+                                    <p>House price prediction can help the developer determine the selling price of a house and can help the Customers to arrange the right time to purchase a house</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <!-- services -->
+    <section class="services py-lg-5 py-md-4 py-3" id="services">
+        <div class="container py-sm-5 py-4">
+            <div class="title-heading text-center mb-sm-5 mb-4">
+                <h3>SERVICE</h3>
+                <h4>SERVICE</h4>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 agileits_banner_bottom_left">
+                    <div class="agileinfo_banner_bottom_pos">
+                        <div class="row w3_agileits_banner_bottom_pos_grid">
+                            <div class="col-3 wthree_banner_bottom_grid_left">
+                                <div class="agile_banner_bottom_grid_left_grid hvr-radial-out text-center">
+                                    <i class="fab fa-steam" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="col-9 wthree_banner_bottom_grid_right">
+                                <h4 class="sub_service_agileits text-uppercase mb-2">Modern Houses</h4>
+                                <p class="mb-2">Modern House construction uses newer, more technologically-advanced building materials</p>
+                                <div class="agileits-button two service">
+                                    <a class="btn btn-primary btn-lg  text-uppercase" href="#" data-toggle="modal" data-target="#exampleModal33" role="button">Read More »</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 agileits_banner_bottom_left mt-md-0 mt-4">
+                    <div class="agileinfo_banner_bottom_pos">
+                        <div class="row w3_agileits_banner_bottom_pos_grid">
+                            <div class="col-3 wthree_banner_bottom_grid_left">
+                                <div class="agile_banner_bottom_grid_left_grid hvr-radial-out text-center">
+                                    <i class="fa fa-rocket" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="col-9 wthree_banner_bottom_grid_right">
+                                <h4 class="sub_service_agileits text-uppercase mb-2">Guest Houses</h4>
+                                <p class="mb-2">A guest house (also spelled “guesthouse”) is an accommodation where a traveler stays in a home hosted by a local resident</p>
+                                <div class="agileits-button two service">
+                                    <a class="btn btn-primary btn-lg  text-uppercase" href="#" data-toggle="modal" data-target="#exampleModal33" role="button">Read More »</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 agileits_banner_bottom_left mt-lg-0 mt-md-5 mt-4">
+                    <div class="agileinfo_banner_bottom_pos">
+                        <div class="row w3_agileits_banner_bottom_pos_grid">
+                            <div class="col-3 wthree_banner_bottom_grid_left">
+                                <div class="agile_banner_bottom_grid_left_grid hvr-radial-out text-center">
+                                    <i class="fa fa-paint-brush" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="col-9 wthree_banner_bottom_grid_right">
+                                <h4 class="sub_service_agileits text-uppercase mb-2">Office Houses</h4>
+                                <p class="mb-2">Offices are commercial properties that are primarily used to maintain professional or business offices.</p>
+                                <div class="agileits-button two service">
+                                    <a class="btn btn-primary btn-lg  text-uppercase" href="#" data-toggle="modal" data-target="#exampleModal33" role="button">Read More »</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 agileits_banner_bottom_left mt-md-5 mt-4">
+                    <div class="agileinfo_banner_bottom_pos">
+                        <div class="row w3_agileits_banner_bottom_pos_grid">
+                            <div class="col-3 wthree_banner_bottom_grid_left">
+                                <div class="agile_banner_bottom_grid_left_grid hvr-radial-out text-center">
+                                    <i class="fas fa-industry" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="col-9 wthree_banner_bottom_grid_right">
+                                <h4 class="sub_service_agileits text-uppercase mb-2">Conceptual Design</h4>
+                                <p class="mb-2">Prediction house prices are expected to help people who plan to buy a house so they can know the price range in the future, then they can plan their finance well.</p>
+                                <div class="agileits-button two service">
+                                    <a class="btn btn-primary btn-lg  text-uppercase" href="#" data-toggle="modal" data-target="#exampleModal33" role="button">Read More »</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 agileits_banner_bottom_left mt-md-5 mt-4">
+                    <div class="agileinfo_banner_bottom_pos">
+                        <div class="row w3_agileits_banner_bottom_pos_grid">
+                            <div class="col-3 wthree_banner_bottom_grid_left">
+                                <div class="agile_banner_bottom_grid_left_grid hvr-radial-out text-center">
+                                    <i class="fa fa-fire" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="col-9 wthree_banner_bottom_grid_right">
+                                <h4 class="sub_service_agileits text-uppercase mb-2">Property Listing</h4>
+                                <p class="mb-2">A listing agreement is a contract between a property owner and a real estate broker that authorizes the broker to represent the seller and find a buyer for the property.</p>
+                                <div class="agileits-button two service">
+                                    <a class="btn btn-primary btn-lg  text-uppercase" href="#" data-toggle="modal" data-target="#exampleModal33" role="button">Read More »</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 agileits_banner_bottom_left mt-md-5 mt-4">
+                    <div class="agileinfo_banner_bottom_pos">
+                        <div class="row w3_agileits_banner_bottom_pos_grid">
+                            <div class="col-3 wthree_banner_bottom_grid_left">
+                                <div class="agile_banner_bottom_grid_left_grid hvr-radial-out text-center">
+                                    <i class="fas fa-cogs" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="col-9 wthree_banner_bottom_grid_right">
+                                <h4 class="sub_service_agileits text-uppercase mb-2">Quality Material</h4>
+                                <p class="mb-2"> Concrete, steel, wood, stone, brickWood, cement, aggregates, metals, bricks, clay are the most common type of building material used in construction.</p>
+                                <div class="agileits-button two service">
+                                    <a class="btn btn-primary btn-lg text-uppercase" href="#" data-toggle="modal" data-target="#exampleModal33" role="button">Read More »</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //services -->
+    <!-- video section -->
+    <div class="video-w3l">
+        <h1>Welcome to</h1>
+        <h1>House price Prediction </h1><br/><br/>
+        <form action="/" method="POST">
+            {% csrf_token %}
+            <div class="form-row">
+                <div class="col-md-4 mb-3">
+                    <label for="validationDefault01">Bathrooms</label>
+                    <input type="number" class="form-control" placeholder="Bathrooms" name="bath" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationDefault01">Balcony</label>
+                    <input type="number" class="form-control" placeholder="Balcony" name="balcony" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationDefault02">Total Squre Foot</label>
+                    <input type="number" class="form-control" name="total_sqft_int" placeholder="Total Squre Foot" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="col-md-4 mb-3">
+                    <label for="validationDefault01">BHK</label>
+                    <input type="number" class="form-control" name="bhk" placeholder="BHK" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationDefault01">Price Per Squre Foot</label>
+                    <input type="number" class="form-control" name="price_per_sqft" placeholder="Price Per Squre Foot" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationDefault02">Availability</label> 
+                    <select class="form-control" name="availability">
+                        <option value="Ready To Move">Ready To Move</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-4 mb-3">
+                    <label for="validationDefault01">Area Type</label> 
+                    <select class="form-control" name="area_type">
+                        <option value="Super built-up  Area">Super built-up  Area</option>
+                        <option value="Plot  Area">Plot  Area</option>
+                        <option value="Built-up  Area">Built-up  Area</option>
+                    </select>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationDefault01">Location</label>
+                    {% comment %} <input type="text" class="form-control" name="location" placeholder="House Location" required> {% endcomment %}
+                    <select class="form-control" name="location">
+                        <option value="Electronic City Phase II">Electronic City Phase II</option>
+                        <option value="Chikka Tirupathi">Chikka Tirupathi</option>
+                        <option value="Uttarahalli">Uttarahalli</option>
+                        <option value="Lingadheeranahalli">Lingadheeranahalli</option>
+                        <option value="Kothanur">Kothanur</option>
+                        <option value="Whitefield">Whitefield</option>
+                        <option value="Old Airport Road">Old Airport Road</option>
+                        <option value="Rajaji Nagar">Rajaji Nagar</option>
+                        <option value="Marathahalli">Marathahalli</option>
+                        <option value="Gandhi Bazar">Gandhi Bazar</option>
+                        <option value="Whitefield">Whitefield</option>
+                        <option value="7th Phase JP Nagar">7th Phase JP Nagar</option>
+                        <option value="Gottigere">Gottigere</option>
+                        <option value="Sarjapur">Sarjapur</option>
+                        <option value="Mysore Road">Mysore Road</option>
+                        <option value="Bisuvanahalli">Bisuvanahalli</option>
+                        <option value="Raja Rajeshwari Nagar">Raja Rajeshwari Nagar</option>
+                        <option value="Ramakrishnappa Layout">Ramakrishnappa Layout</option>
+                        <option value="Manayata Tech Park">Manayata Tech Park</option>
+                        <option value="Kengeri">Kengeri</option>
+                        <option value="Binny Pete">Binny Pete</option>
+                        <option value="Thanisandra">Thanisandra</option>
+                        <option value="Bellandur">Bellandur</option>
+                        <option value="Thanisandra">Thanisandra</option>
+                        <option value="Mangammanapalya">Mangammanapalya</option>
+                        <option value="Electronic City">Electronic City</option>
+                        <option value="Whitefield">Whitefield</option>
+                        <option value="Ramagondanahalli">Ramagondanahalli</option>
+                        <option value="Electronic City">Electronic City</option>
+                        <option value="Yelahanka">Yelahanka</option>
+                        <option value="Bisuvanahalli">Bisuvanahalli</option>
+                        <option value="Hebbal">Hebbal</option>
+                        <option value="Raja Rajeshwari Nagar">Raja Rajeshwari Nagar</option>
+                        <option value="Kasturi Nagar">Kasturi Nagar</option>
+                        <option value="Kanakpura Road">Kanakpura Road</option>
+                        <option value="Electronics City Phase 1">Electronics City Phase 1</option>
+                        <option value="Kundalahalli">Kundalahalli</option>
+                        <option value="Chikkalasandra">Chikkalasandra</option>
+                        <option value="Murugeshpalya"> Murugeshpalya</option>
+                        <option value="Sarjapur  Road">Sarjapur  Road</option>
+                        <option value="Ganga Nagar"> Ganga Nagar</option>
+                        <option value="Yelahanka">Yelahanka </option>
+                        <option value="Kanakpura Road">Kanakpura Road</option>
+                        <option value="HSR Layout">HSR Layout </option>
+                        <option value="Doddathoguru">Doddathoguru </option>
+                        <option value="Whitefield"> Whitefield</option>
+                        <option value="KR Puram">KR Puram </option>
+                        <option value="Himagiri Meadows">Himagiri Meadows</option>
+                        <option value="Adarsh Nagar">Adarsh Nagar</option>
+                        <option value="Bhoganhalli">Bhoganhalli</option>
+                        <option value="Whitefield">Whitefield</option>
+                        <option value="Lakshminarayana Pura">Lakshminarayana Pura</option>
+                        <option value="Yelahanka">Yelahanka </option>
+                        <option value="Begur Road">Begur Road</option>
+                        <option value="Devanahalli">Devanahalli</option>
+                        <option value="Ramakrishnappa Layout">Ramakrishnappa Layout </option>
+                        <option value="Murugeshpalya">Murugeshpalya</option>
+                        <option value="Govindaraja Nagar Ward">Govindaraja Nagar Ward </option>
+                        <option value="Tharabanahalli">Tharabanahalli </option>
+                        <option value="Ganga Nagar">Ganga Nagar</option>
+                        <option value="Whitefield">Whitefield</option>
+                        <option value="Varthur">Varthur </option>
+                        <option value="Bommanahalli"> Bommanahalli</option>
+                        <option value="T Dasarahalli">T Dasarahalli </option>
+                        <option value="Green View Layout"> Green View Layout</option>
+                        <option value="Shantiniketan Layout"> Shantiniketan Layout</option>
+                        <option value="Rajaji Nagar"> Rajaji Nagar</option>
+                        <option value="Lakshmiamma Garden">Lakshmiamma Garden </option>
+                        <option value="Ramamurthy Nagar">Ramamurthy Nagar </option>
+                        <option value="Ramamurthy Nagar"> Ramamurthy Nagar</option>
+                        <option value="Malleshwaram">Malleshwaram</option>
+                        <option value="Akshaya Nagar">Akshaya Nagar </option>
+                        <option value="Shampura">Shampura </option>
+                        <option value="LB Shastri Nagar">LB Shastri Nagar </option>
+                        <option value="Vishwapriya Layout">Vishwapriya Layout</option>
+                        <option value="Bommasandra Industrial Area">Bommasandra Industrial Area </option>
+                        <option value="Hennur Road">Hennur Road </option>
+                        <option value="Electronic City">Electronic City </option>
+                        <option value="KR Puram">KR Puram </option>
+                        <option value="Hennur Road">Hennur Road </option>
+                    </select>
+                </div>
+                <!-- <div class="col-md-4 mb-3">
+                    <label for="validationDefault02">Last name</label>
+                    <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="Otto" required>
+                </div> -->
+            </div>
+
+            <button class="btn btn-primary" type="submit">Submit form</button>
+        </form>
+
+        <h2 style="color:black;"> predicted Price {{ aa }} Lakh </h2>
+    </div>
+    <!-- //video section -->
+    <!-- team -->
+    <div class="team py-lg-5 py-md-4 py-3" id="team">
+        <div class="container py-sm-5 py-4">
+            <div class="title-heading text-center mb-sm-5 mb-4">
+                <h3>TEAM</h3>
+                <h4>OUR TEAM</h4>
+            </div>
+            <div class="team_grids">
+                <div class="row">
+                    <div class="col-md-3 team_grid text-center">
+                        <img src="{% static 'images/t1.png' %}" alt=" " class="img-fluid" />
+                        <h3>Mrs.KANNU PRIYA</h3>
+                        <p class="team_gridp">Designer</p>
+                        <p>Excel Engineering college Dept of AI&DS (3rd year)Roll No 20AD020,Reg No 730920201020</p>
+                        <ul class="footer_list_icons team_icons">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3 team_grid text-center">
+                        <img src="{% static 'images/t2.png' %}" alt=" " class="img-fluid" />
+                        <h3>Mr.SONU KUMAR</h3>
+                        <p class="team_gridp">Designer</p>
+                        <p>Excel Engineering college Dept of AI&DS (3rd year)Roll No 20AD049,Reg No 730920201048</p>
+                        <ul class="footer_list_icons team_icons">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3 team_grid text-center">
+                        <img src="{% static 'images/t3.png' %}" alt=" " class="img-fluid" />
+                        <h3>Mr.ATIULLHA ANSARI</h3>
+                        <p class="team_gridp">Designer</p>
+                        <p>Excel Engineering college Dept of AI&DS (3rd year)Roll No 20AD009,Reg No 730920201009</p>
+                        <ul class="footer_list_icons team_icons">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3 team_grid text-center">
+                        <img src="{% static 'images/t4.png' %}" alt=" " class="img-fluid" />
+                        <h3>Mr.BHUPENDRA KUMAR</h3>
+                        <p class="team_gridp">Designer</p>
+                        <p>Excel Engineering college Dept of AI&DS (3rd year)Roll No 20AD011,Reg No 730920201011</p>
+                        <ul class="footer_list_icons team_icons">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- team -->
+
+    <!--gallery  -->
+    <section class="wthree-row w3-gallery py-lg-5 py-md-4 py-3" id="gallery">
+        <div class="container-fluid text-center">
+            <div class="title-heading text-center">
+                <h3>GALLERY</h3>
+                <h4>GALLERY</h4>
+            </div>
+            <ul class="portfolio-categ filter pt-5 pt-sm-4 mb-5 mb-sm-4 text-center">
+                <li class="port-filter all active">
+                    <a href="#">All</a>
+                </li>
+                <li class="cat-item-1">
+                    <a href="#" title="Category 1">Interior</a>
+                </li>
+                <li class="cat-item-2">
+                    <a href="#" title="Category 2">Villas</a>
+                </li>
+                <li class="cat-item-3">
+                    <a href="#" title="Category 3">Apartments</a>
+                </li>
+                <li class="cat-item-4">
+                    <a href="#" title="Category 4">Properties</a>
+                </li>
+            </ul>
+            <ul class="portfolio-area clearfix">
+                <li class="portfolio-item2" data-id="id-0" data-type="cat-item-4">
+                    <div>
+                        <a class="image-gal" href="{% static 'images/g1.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static 'images/g1.jpg' %}" class="img-fluid w3layouts agileits" alt="">
+
+                        </a>
+                    </div>
+                </li>
+                <li class="portfolio-item2" data-id="id-1" data-type="cat-item-2">
+                    <div>
+                        <a class="image-gal" href="{% static 'images/g2.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static 'images/g2.jpg' %}" class="img-fluid w3layouts agileits" alt="">
+
+                        </a>
+                    </div>
+                </li>
+                <li class="portfolio-item2" data-id="id-2" data-type="cat-item-1">
+                    <div>
+                        <a class="image-gal" href="images/g3.jpg" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static 'images/g3.jpg' %}" class="img-fluid w3layouts agileits" alt="">
+
+                        </a>
+                    </div>
+                </li>
+                <li class="portfolio-item2" data-id="id-3" data-type="cat-item-4">
+                    <div>
+                        <a class="image-gal" href="{% static 'images/g4.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static 'images/g4.jpg' %}" class="img-fluid w3layouts agileits" alt="">
+
+                        </a>
+                    </div>
+                </li>
+                <li class="portfolio-item2" data-id="id-4" data-type="cat-item-3">
+                    <div>
+                        <a class="image-gal" href="{% static 'images/g5.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static 'images/g5.jpg' %}" class="img-fluid w3layouts agileits" alt="">
+
+                        </a>
+                    </div>
+                </li>
+                <li class="portfolio-item2" data-id="id-5" data-type="cat-item-2">
+                    <div>
+                        <a class="image-gal" href="{% static 'images/g6.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static 'images/g6.jpg' %}" class="img-fluid w3layouts agileits" alt="">
+
+                        </a>
+                    </div>
+                </li>
+
+                <li class="portfolio-item2" data-id="id-6" data-type="cat-item-1">
+                    <div>
+                        <a class="image-gal" href="{% static 'images/g7.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static 'images/g7.jpg' %}" class="img-fluid w3layouts agileits" alt="">
+
+                        </a>
+                    </div>
+                </li>
+                <li class="portfolio-item2" data-id="id-7" data-type="cat-item-1">
+                    <div>
+                        <a class="image-gal" href="{% static 'images/g8.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static 'images/g8.jpg' %}" class="img-fluid w3layouts agileits" alt="">
+
+                        </a>
+                    </div>
+                </li>
+                <li class="portfolio-item2" data-id="id-9" data-type="cat-item-4">
+                    <div>
+                        <a class="image-gal" href="{% static 'images/g9.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static 'images/g9.jpg' %}" class="img-fluid w3layouts agileits" alt="">
+
+                        </a>
+                    </div>
+                </li>
+
+                <li class="portfolio-item2" data-id="id-9" data-type="cat-item-3">
+                    <div>
+                        <a class="image-gal" href="{% static 'images/g10.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static 'images/g10.jpg' %}" class="img-fluid w3layouts agileits" alt="">
+
+                        </a>
+                    </div>
+                </li>
+                <li class="portfolio-item2" data-id="id-10" data-type="cat-item-2">
+                    <div>
+                        <a class="image-gal" href="{% static 'images/g11.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static 'images/g11.jpg' %}" class="img-fluid w3layouts agileits" alt="">
+
+                        </a>
+                    </div>
+                </li>
+                <li class="portfolio-item2" data-id="id-8" data-type="cat-item-1">
+                    <div>
+                        <a class="image-gal" href="{% static 'images/g12.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static 'images/g12.jpg' %}" class="img-fluid w3layouts agileits" alt="">
+
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <!--end portfolio-area -->
+
+        </div>
+        <!-- //gallery container -->
+    </section>
+    <!-- //gallery -->
+    <!-- Counter -->
+    <div class="stats py-lg-5 py-md-4 py-3" id="stats">
+        <div class="container py-3">
+
+            <div class="row">
+                <div class=" col-lg-6 clients">
+                    <div class="title-heading-stats">
+                        <h3>OUR STATS</h3>
+                        <h4>STATS</h4>
+                    </div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary more-button1" data-toggle="modal" data-target="#exampleModal2">
+							  MORE INFO
+							</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel2">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+									</button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="{% static 'images/contact.jpg' %}" alt="image" />
+                                    <p> </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 services-bottom">
+                    <div class="row">
+                        <div class="col-md-6 agileits_w3layouts_about_counter_left text-center mb-5">
+                            <div class="countericon">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <div class="counterinfo">
+                                <p class="counter">2601</p>
+                                <h3>Properties</h3>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 agileits_w3layouts_about_counter_left text-center mb-5">
+                            <div class="countericon">
+                                <i class="far fa-smile"></i>
+                            </div>
+                            <div class="counterinfo">
+                                <p class="counter">653</p>
+                                <h3>Happy Customers</h3>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6 agileits_w3layouts_about_counter_left text-center">
+                            <div class="countericon">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="counterinfo">
+                                <p class="counter">1024</p>
+                                <h3>Professional Agents</h3>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 agileits_w3layouts_about_counter_left text-center">
+                            <div class="countericon">
+                                <i class="fas fa-spinner"></i>
+                            </div>
+                            <div class="counterinfo">
+                                <p class="counter">2355</p>
+                                <h3>Success Stories</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //Counter -->
+    <!-- Latest -->
+    <div class="latest py-lg-5 py-md-4 py-3" id="news">
+        <div class="container py-sm-5 py-4">
+            <div class="title-heading text-center mb-sm-5 mb-4">
+                <h3>LATEST NEWS</h3>
+                <h4>NEWS</h4>
+            </div>
+            <div class="news_grids">
+                <div class="row">
+                    <div class="col-md-4 mb-4 latest-news">
+                        <div class="news_grid1">
+                            <div class="news_grid_info">
+                                <p class="date">Indira Nagar</p>
+                                <h3>Business areas</h3>
+                                <p>Indiranagar is a lively dining and nightlife hub, with a hip vibe, with a hip vibe in the evening ,the restaurants,pubs and craft breweries along 100 Feet road and  the surrounding streets draw a young, stylish crowd.</p>
+                                <a href="#">Read more <span class="fa fa-long-arrow-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 latest-news">
+                        <div class="news_grid2">
+                            <div class="news_grid_info">
+                                <p class="date">On Jan 20th, 2018</p>
+                                <h3>apartments design</h3>
+                                <p>Vestibulum ut tincidunt lectus, vitae faucibus felis. Vivam uspretium leo eu iaculis lobortis.</p>
+                                <a href="#">Read more <span class="fa fa-long-arrow-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 latest-news">
+                        <div class="news_grid3">
+                            <div class="news_grid_info">
+                                <p class="date">On Jan 20th, 2018</p>
+                                <h3>Restaurant design</h3>
+                                <p>Vestibulum ut tincidunt lectus, vitae faucibus felis. Vivam uspretium leo eu iaculis lobortis.</p>
+                                <a href="#">Read more <span class="fa fa-long-arrow-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 latest-news">
+                        <div class="news_grid4">
+                            <div class="news_grid_info">
+                                <p class="date">On Jan 20th, 2018</p>
+                                <h3>Office design</h3>
+                                <p>Vestibulum ut tincidunt lectus, vitae faucibus felis. Vivam uspretium leo eu iaculis lobortis.</p>
+                                <a href="#">Read more <span class="fa fa-long-arrow-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 latest-news">
+                        <div class="news_grid5">
+                            <div class="news_grid_info">
+                                <p class="date">On Jan 20th, 2018</p>
+                                <h3>apartments design</h3>
+                                <p>Vestibulum ut tincidunt lectus, vitae faucibus felis. Vivam uspretium leo eu iaculis lobortis.</p>
+                                <a href="#">Read more <span class="fa fa-long-arrow-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 latest-news">
+                        <div class="news_grid6">
+                            <div class="news_grid_info">
+                                <p class="date">On Jan 20th, 2018</p>
+                                <h3>Restaurant design</h3>
+                                <p>Vestibulum ut tincidunt lectus, vitae faucibus felis. Vivam uspretium leo eu iaculis lobortis.</p>
+                                <a href="#">Read more <span class="fa fa-long-arrow-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //Latest -->
+    
+    <!--footer -->
+    <div class="footer footer_w3layouts_section_1its">
+        <div class="container">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-md-3 footer-grid_section_1its_w3">
+                        <div class="footer-title">
+                            <h3>About Us</h3>
+                        </div>
+                        <div class="footer-text">
+                            <p>House price prediction can help developer determine the selling price of a house and can help the Customers to arrange the right time to purchase a house</p>
+                            <ul class="social_section_1info">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 footer-grid_section_1its_w3">
+                        <div class="footer-title">
+                            <h3>Contact</h3>
+                        </div>
+                        <div class="contact-info">
+                            <p><i class="fas fa-map-marker"></i>Excel Engineering College, Komarapalayam, Tamil Nadu-637303.</p>
+                            <p><i class="fas fa-phone"></i>Phone : +91-7991198925</p>
+                            <p><i class="far fa-envelope"></i>Email : <a href="mailto:vishalkumrar">vishalkumar.itcs@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 footer-grid_section_1its_w3">
+                        <div class="footer-title">
+                            <h3>Navigation</h3>
+                        </div>
+                        <ul class="links">
+                            <li><a href="">Home</a></li>
+                            <li><a href="#about" class="scroll">About</a></li>
+                            <li><a href="#services" class="scroll">Services</a></li>
+                            <li><a href="#team" class="scroll">Team</a></li>
+                            <li><a href="#gallery" class="scroll">Gallery</a></li>
+                            <li><a href="#news" class="scroll">news</a></li>
+                            <li><a href="contact" class="scroll">contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 footer-grid_section_1its_w3">
+                        <div class="footer-title">
+                            <h3>Latest news</h3>
+                        </div>
+                        <div class="d-flex justify-content-around">
+                            <a href="#" class="col-4 fot_tp p-2">
+                                <img src="{% static 'images/g1.jpg' %}" class="img-fluid" alt="image">
+                            </a>
+                            <a href="#" class="col-4 fot_tp p-2">
+                                <img src="{% static 'images/g2.jpg' %}" class="img-fluid" alt="image">
+                            </a>
+                            <a href="#" class="col-4 fot_tp p-2">
+                                <img src="{% static 'images/g3.jpg' %}" class="img-fluid" alt="image">
+                            </a>
+                        </div>
+                        <div class="d-flex justify-content-around">
+                            <a href="#" class="col-4 fot_tp p-2">
+                                <img src="{% static 'images/g4.jpg' %}" class="img-fluid" alt="image">
+                            </a>
+                            <a href="#" class="col-4 fot_tp p-2">
+                                <img src="{% static 'images/g5.jpg' %}" class="img-fluid" alt="image">
+                            </a>
+                            <a href="#" class="col-4 fot_tp p-2">
+                                <img src="{% static 'images/g6.jpg' %}" class="img-fluid" alt="image">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© . All Rights Reserved | Design by <a href="#">VISHAL KUMAR </a> </p>
+            </div>
+        </div>
+    </div>
+    <!-- //footer -->
+
+
+    <!-- js -->
+    <script src="{% static 'js/jquery.min.v3.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <!-- //js -->
+
+
+    <!-- stats -->
+    <script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static 'js/jquery.countup.js' %}"></script>
+    <script>
+        $('.counter').countUp();
+    </script>
+    <!-- //stats -->
+
+
+    <!-- start-smooth-scrolling -->
+    <script src="{% static 'js/move-top.js' %}"></script>
+    <script src="{% static 'js/easing.js' %}"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- //end-smooth-scrolling -->
+    <!-- smooth-scrolling-of-move-up -->
+    <script>
+        $(document).ready(function() {
+            /*
+            var defaults = {
+            	containerID: 'toTop', // fading element id
+            	containerHoverID: 'toTopHover', // fading element hover id
+            	scrollSpeed: 1200,
+            	easingType: 'linear' 
+            };
+            */
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <script src="{% static 'js/SmoothScroll.min.js' %}"></script>
+
+    <!-- //smooth-scrolling-of-move-up -->
+    <!-- start-smooth-scrolling -->
+    <script src="{% static 'js/move-top.js' %}"></script>
+    <script src="{% static 'js/easing.js' %}"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- //end-smooth-scrolling -->
+    <!-- smooth-scrolling-of-move-up -->
+    <script>
+        $(document).ready(function() {
+            /*
+            var defaults = {
+            	containerID: 'toTop', // fading element id
+            	containerHoverID: 'toTopHover', // fading element hover id
+            	scrollSpeed: 1200,
+            	easingType: 'linear' 
+            };
+            */
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <script src="{% static 'js/SmoothScroll.min.js' %}"></script>
+
+    <!-- //smooth-scrolling-of-move-up -->
+
+
+    <!-- jQuery-Photo-filter-lightbox-Gallery-plugin -->
+    <script src="{% static 'js/jquery-1.7.2.js' %}"></script>
+    <script src="{% static 'js/jquery.quicksand.js' %}"></script>
+    <script src="{% static 'js/script.js' %}"></script>
+    <script src="{% static 'js/jquery.prettyPhoto.js' %}"></script>
+    <!-- //jQuery-Photo-filter-lightbox-Gallery-plugin -->
+
+    <!-- video js (background) -->
+    <script src="{% static 'js/jquery.vide.min.js' %}"></script>
+    <!-- //video js (background) -->
+
+</body>
+
+</html>
